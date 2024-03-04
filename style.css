@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: rgb(121, 222, 121);   
+    background-color: rgb(166, 245, 166);   
 }
 h1{
     margin-top: 10%;
@@ -26,7 +26,7 @@ h1{
     margin-top: 1rem;
     width:95%;
     height: 2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: 2px solid green;
     border-radius: 1rem;
     text-align: center;
@@ -36,27 +36,35 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
 }
 .from, .to {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    font-size: 1.5rem;
     height: 2rem;
-    width: 2rem;
+    width: 10rem;
 }
 #final-amount,#ex-rate{
     margin-top: 2rem;
+    margin-left: 2rem;
     height: 2rem;
     width: 25rem;
     text-align: center;
+    font-size: 1.8rem;
+    color: rgb(15, 184, 15);
+    border: 2px solid green;
 }
 #ex-rate{
     padding-top: 1rem;
+    font-size: 1.3rem;
+    color: rgb(61, 85, 6);
+    border: 2px solid red;
 }
 #btn-convert{
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
     height: 2.5rem;
@@ -71,4 +79,9 @@ h1{
     /* color: white; */
     background-color: rgb(162, 236, 162);
     font-size: 1.5rem;
+}
+#toCurrency,#fromCurrency{
+    width:5rem;
+    height: 1.5rem;
+    font-size: 1rem;
 }
